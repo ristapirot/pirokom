@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pirokom - Transport Company</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+  <link href="https://unpkg.com/vuetify/dist/vuetify.min.css" rel="stylesheet">
+</head>
+<body>
+ <div id="app">
+   <v-app light>
+    
+    <v-content>
+      <section>
+        <v-parallax src="assets/back1.jpg" class="back1" height="600">
+          <v-layout
+            column
+            align-center
+            justify-center
+            class="white--text"
+          >
+            <img src="assets/logo.png" class="logo" alt="Pirokom" height="200">
+            <!-- <h1 class="white--text mb-2 display-1 text-xs-center">Pirokom</h1>
+            <div class="subheading mb-3 text-xs-center">Transport and Logistic</div> -->
+            <v-btn
+              class="red darken-2 mt-5"
+              dark
+              large
+              @click="sendMail"
+            >
+              Posaljite mail
+            </v-btn>
+          </v-layout>
+        </v-parallax>
+      </section>
+
+      <section>
+        <v-layout
+          column
+          wrap
+          class="my-5"
+          align-center
+        >
+          <v-flex xs12 sm4 class="my-3">
+            <div class="text-xs-center">
+              <h2 class="headline">Usluge koje pruzamo</h2>
+            </div>
+          </v-flex>
+          <v-flex xs12>
+            <v-container grid-list-xl>
+              <v-layout row wrap align-center>
+                <v-flex xs12 md4>
+                  <v-card class="elevation-0 transparent">
+                    <v-card-text class="text-xs-center">
+                      <v-icon x-large class="red--text text--darken-1">local_shipping</v-icon>
+                    </v-card-text>
+                    <v-card-title primary-title class="layout justify-center">
+                      <div class="headline text-xs-center">Transport robe</div>
+                    </v-card-title>
+                    <v-card-text>
+                        Firma Pirokom doo je transportna firma koja se bavi medjunarodnim transportom robe u regionu (Bugarska, Rumunija, Makedonija, Grčka, Bosna i Hercegovina, Hrvatska, Kosovo) a prvenstveno i primarno Srbija – Bugarska – Srbija.
+                    </v-card-text>
+                  </v-card>
+                </v-flex>
+                <v-flex xs12 md4>
+                  <v-card class="elevation-0 transparent">
+                    <v-card-text class="text-xs-center">
+                      <v-icon x-large class="red--text text--darken-1">place</v-icon>
+                    </v-card-text>
+                    <v-card-title primary-title class="layout justify-center">
+                      <div class="headline">GPS pracenja</div>
+                    </v-card-title>
+                    <v-card-text>
+                      Sva nasa vozila su pracena putem GPS satelita u realnom vremenu. Posedujemo 12 kamiona, i svaki od njih poseduje osiguranje robe u transportu.  
+                    </v-card-text>
+                  </v-card>
+                </v-flex>
+                <v-flex xs12 md4>
+                  <v-card class="elevation-0 transparent">
+                    <v-card-text class="text-xs-center">
+                      <v-icon x-large class="red--text text--darken-1">local_parking</v-icon>
+                    </v-card-text>
+                    <v-card-title primary-title class="layout justify-center">
+                      <div class="headline text-xs-center">Parking</div>
+                    </v-card-title>
+                    <v-card-text>
+                      Firma poseduje privatan parking na prostoru od 5200 kvadratnih metara. U sklopu parkinga se nalazi servis firme kao i perionica za kamione. 
+                    </v-card-text>
+                  </v-card>
+                </v-flex>
+              </v-layout>
+            </v-container>
+          </v-flex>
+        </v-layout>
+      </section>
+
+      <section>
+        <v-parallax src="assets/section.jpg" height="380">
+          <v-layout column align-center justify-center>
+            <div class="headline red--text text--darken-1 mb-3 text-xs-center">20 godina sa vama</div>
+            <em class="black--text text--darken-1">Kontaktirajte nas jos danas, i resite problem transporta.</em>
+            <v-btn
+              class="red darken-1 mt-5"
+              dark
+              large
+              @click="sendMail"
+            >
+              Posaljite mail
+            </v-btn>
+          </v-layout>
+        </v-parallax>
+      </section>
+
+      <section>
+        <v-container grid-list-xl>
+          <v-layout row wrap justify-center class="my-5">
+            <v-flex xs12 sm4>
+              <v-card class="elevation-0 transparent">
+                <v-card-title primary-title class="layout justify-center">
+                  <div class="headline">Opis kompanije</div>
+                </v-card-title>
+                <v-card-text>
+                    Firma Pirokom doo je transportna firma koja se bavi medjunarodnim transportom robe u regionu (Bugarska, Rumunija, Makedonija, Grčka, Bosna i Hercegovina, Hrvatska, Kosovo) a prvenstveno i primarno
+                    Srbija – Bugarska – Srbija.
+                    U svom voznom parku posedujemo 12 kamiona od kojih su 8 kamiona sa poluprikolicama MEGA sa utovarnim prostorom od 105cm3 a 4 kamiona sa običnim poluprikolicama sa utovarnim prostorom od 92-96 cm3.
+                    
+                    Svi kamioni poseduju osiguranje robe u transportu i osigurani su kod DDOR Novi Sad. Moto naše firme je da radimo profesionalno, tačno, da postujemo klijente sa kojima radimo, kao i propise vezane za našu delatnost.
+                    
+                    Klijenti sa kojima dugo saradjemo su Prity line iz Nisa, Licent iz Pirota, Michelin iz Pirota, Calsberg iz Čelareva, Nectar iz Bačke Palanke, Bodeks iz Bugarske, Neotrans iz Bugarske, DHL iz Bugarske, LKW WALTER iz Austrije kao i ostali.
+                </v-card-text>
+              </v-card>
+            </v-flex>
+            <v-flex xs12 sm4 offset-sm1>
+              <v-card class="elevation-0 transparent">
+                <v-card-title primary-title class="layout justify-center">
+                  <div class="headline">Kontaktirajte nas</div>
+                </v-card-title>
+                <v-card-text>
+                  Radno vreme firme je 08:00 - 16:00
+                </v-card-text>
+                <v-list class="transparent">
+                  <v-list-tile>
+                    <v-list-tile-action>
+                      <v-icon class="red--text text--darken-1">phone</v-icon>
+                    </v-list-tile-action>
+                    <v-list-tile-content>
+                      <v-list-tile-title>+38162656667 - Milos</v-list-tile-title>
+                      <v-list-tile-title>+381656777999 - Dejan</v-list-tile-title>
+                    </v-list-tile-content>
+                  </v-list-tile>
+                  <v-list-tile>
+                    <v-list-tile-action>
+                      <v-icon class="red--text text--darken-1">place</v-icon>
+                    </v-list-tile-action>
+                    <v-list-tile-content>
+                      <v-list-tile-title>Obilazni put bb, Pirot, SRB</v-list-tile-title>
+                    </v-list-tile-content>
+                  </v-list-tile>
+                  <v-list-tile>
+                    <v-list-tile-action>
+                      <v-icon class="red--text text--darken-1">email</v-icon>
+                    </v-list-tile-action>
+                    <v-list-tile-content>
+                      <v-list-tile-title>pirokom.rista@gmail.com</v-list-tile-title>
+                    </v-list-tile-content>
+                  </v-list-tile>
+                </v-list>
+              </v-card>
+            </v-flex>
+          </v-layout>
+        </v-container>
+      </section>
+
+      <v-footer class="red darken-3">
+        <v-layout row wrap align-center>
+          <v-flex xs12>
+            <div class="white--text ml-3">
+              Made with
+              <v-icon class="red--text">favorite</v-icon>
+              by <a class="white--text" href="https://vuetifyjs.com" target="_blank">Vuetify</a>
+              and <a class="white--text" href="https://github.com/vwxyzjn">Nemanja Ristic</a>
+            </div>
+          </v-flex>
+        </v-layout>
+      </v-footer>
+    </v-content>
+  </v-app>
+ </div>
+ <script src="https://unpkg.com/vue/dist/vue.js"></script>
+ <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
+ <script>
+   new Vue({
+    el: '#app',
+    data () {
+      return {
+        title: ''
+      }
+    },
+    methods: {
+      sendMail () {
+        window.open('mailto:pirokom.rista@gmail.com');
+      }
+    }
+  })
+ </script>
+ <style>
+   .logo {
+     border-radius: 100%;
+   }
+
+   .v-parallax__image {
+     filter: blur(1px) grayscale(80%);
+   }
+
+   .v-card__text {
+     line-height: 2em;
+   }
+ </style>
+</body>
+</html>
